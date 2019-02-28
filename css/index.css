@@ -200,6 +200,12 @@ header .top-section .nav-hamburger {
   width: 3%;
   height: 3%;
 }
+@media (max-width: 500px) {
+  header .top-section .nav-hamburger {
+    width: 6%;
+    height: 6%;
+  }
+}
 header nav {
   display: none;
 }
@@ -214,13 +220,31 @@ header .jumbotron .jumbotron-desktop-img {
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 500px) {
+  .main {
+    flex-direction: column;
+  }
+}
 .main .feature-1 {
   display: flex;
   flex-direction: row;
   margin: 25px 75px;
 }
+@media (max-width: 500px) {
+  .main .feature-1 {
+    flex-direction: column-reverse;
+    width: 85%;
+    margin: 20px auto;
+  }
+}
 .main .feature-1 .text-container {
   padding-right: 50px;
+}
+@media (max-width: 500px) {
+  .main .feature-1 .text-container {
+    margin-top: 25px;
+    padding-right: 0px;
+  }
 }
 .main .feature-1 .text-container p {
   margin-bottom: 50px;
@@ -234,8 +258,19 @@ header .jumbotron .jumbotron-desktop-img {
   text-align: center;
   padding: 12px 25px;
 }
+@media (max-width: 500px) {
+  .main .feature-1 .text-container .button {
+    padding: 12px 164px;
+  }
+}
 .main .feature-1 .text-container-2 {
-  margin-left: 50px;
+  padding-left: 50px;
+}
+@media (max-width: 500px) {
+  .main .feature-1 .text-container-2 {
+    margin-top: 25px;
+    padding-left: 0px;
+  }
 }
 .main .feature-1 .text-container-2 p {
   margin-bottom: 50px;
@@ -247,7 +282,12 @@ header .jumbotron .jumbotron-desktop-img {
   background-color: #ffffff;
   border: 1px solid black;
   text-align: center;
-  padding: 12px 20px;
+  padding: 12px 25px;
+}
+@media (max-width: 500px) {
+  .main .feature-1 .text-container-2 .button {
+    padding: 12px 156px;
+  }
 }
 .btm-section {
   margin: 25px 75px;
