@@ -234,7 +234,7 @@ header .jumbotron .jumbotron-desktop-img {
   .main .feature-1 {
     flex-direction: column-reverse;
     width: 85%;
-    margin: 20px auto;
+    margin: 30px auto;
   }
 }
 .main .feature-1 .text-container {
@@ -287,6 +287,11 @@ header .jumbotron .jumbotron-desktop-img {
 @media (max-width: 500px) {
   .main .feature-1 .text-container-2 .button {
     padding: 12px 156px;
+  }
+}
+@media (max-width: 500px) {
+  .main .inverse-feature {
+    flex-direction: column;
   }
 }
 .btm-section {
