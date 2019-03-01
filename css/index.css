@@ -294,8 +294,21 @@ header .jumbotron .jumbotron-desktop-img {
     flex-direction: column;
   }
 }
+.recent {
+  margin: 25px 75px;
+}
+@media (max-width: 500px) {
+  .recent {
+    margin: 25px 35px;
+  }
+}
 .btm-section {
   margin: 25px 75px;
+}
+@media (max-width: 500px) {
+  .btm-section {
+    margin: 0;
+  }
 }
 .btm-section .feature-2 .pic-caption {
   position: relative;
@@ -303,6 +316,7 @@ header .jumbotron .jumbotron-desktop-img {
 .btm-section .feature-2 .pic-caption h4 {
   font-size: 2.8rem;
   text-align: center;
+  letter-spacing: 0.7rem;
   position: absolute;
   left: 543px;
   bottom: -45px;
@@ -310,6 +324,12 @@ header .jumbotron .jumbotron-desktop-img {
   height: 95px;
   width: 310px;
   background-color: lightgrey;
+}
+@media (max-width: 500px) {
+  .btm-section .feature-2 .pic-caption h4 {
+    left: 88px;
+    bottom: -75px;
+  }
 }
 .btm-section .feature-2 .pic-caption .outskirts {
   font-size: 2.8rem;
@@ -322,8 +342,23 @@ header .jumbotron .jumbotron-desktop-img {
   width: 310px;
   background-color: lightgrey;
 }
+@media (max-width: 500px) {
+  .btm-section .feature-2 .pic-caption .outskirts {
+    left: 88px;
+    bottom: -75px;
+  }
+}
 .btm-section .feature-2 .feature-2-text-wrapper {
   padding: 80px 235px;
+}
+@media (max-width: 500px) {
+  .btm-section .feature-2 .feature-2-text-wrapper {
+    padding: 20px 10px;
+    margin-top: 60px;
+  }
+}
+.btm-section .feature-2 .feature-2-text-wrapper .feature-2-text {
+  margin: 20px auto;
 }
 footer {
   background-color: #828282;
