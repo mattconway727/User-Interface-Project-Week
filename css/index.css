@@ -159,6 +159,14 @@ h1 {
   padding-left: 75px;
   background-size: cover;
 }
+@media (max-width: 500px) {
+  h1 {
+    font-size: 4rem;
+    line-height: 52px;
+    margin-top: -184px;
+    padding-left: 34px;
+  }
+}
 h2 {
   font-size: 2.4rem;
   color: #ffffff;
@@ -188,6 +196,11 @@ header {
   margin-bottom: 85px;
   background-color: #9fa9b3;
   color: #ffffff;
+}
+@media (max-width: 500px) {
+  header {
+    margin-bottom: 35px;
+  }
 }
 header .top-section {
   display: flex;
@@ -369,8 +382,19 @@ footer .contact {
   justify-content: space-around;
   padding: 30px;
 }
+@media (max-width: 500px) {
+  footer .contact {
+    padding: 20px 10px;
+    flex-direction: column;
+  }
+}
 footer .contact .email {
   width: 30%;
+}
+@media (max-width: 500px) {
+  footer .contact .email {
+    width: 100%;
+  }
 }
 footer .contact .email .input {
   height: 30px;
@@ -383,6 +407,16 @@ footer .contact .states {
   color: #ffffff;
   width: 60%;
 }
+@media (max-width: 500px) {
+  footer .contact .states {
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  footer .contact .states .states-1 {
+    margin-top: 30px;
+  }
+}
 footer .contact .states .states-text {
   color: #ffffff;
   line-height: 30px;
@@ -394,4 +428,10 @@ footer .contact .states .states-text {
 .copyright {
   text-align: center;
   color: #ffffff;
+}
+@media (max-width: 500px) {
+  .copyright {
+    margin-right: 292px;
+    margin-bottom: 20px;
+  }
 }
