@@ -168,11 +168,11 @@ h1 {
   margin-top: -275px;
   padding-left: 75px;
   background-size: cover;
-  @media (max-width: 500px) {
-    font-size: 4rem;
-    line-height: 52px;
-    margin-top: -184px;
-    padding-left: 34px;
+  @media (max-width: 350px) {
+    font-size: 3.5rem;
+    line-height: 37px;
+    margin-top: -141px;
+    padding-left: 20px;
   }
 }
 
@@ -185,6 +185,9 @@ h3 {
   font-weight: bold;
   font-size: 2.8rem;
   margin-bottom: 30px;
+  @media (max-width: 350px) {
+    font-size: 2.7rem;
+  }
 }
 
 h4 {
@@ -197,6 +200,10 @@ p {
   color: black;
 }
 
+// ********************
+//           home page
+// ********************
+
 .wrapper {
   width: 100%;
   max-width: 1024px;
@@ -206,14 +213,12 @@ p {
   flex-direction: column;
 }
 
-//           home page
-
 // HEADER *****************
 header {
   margin-bottom: 85px;
   background-color: #9fa9b3;
   color: #ffffff;
-  @media (max-width: 500px) {
+  @media (max-width: 350px) {
     margin-bottom: 35px;
   }
   .top-section {
@@ -226,7 +231,7 @@ header {
     .nav-hamburger {
       width: 3%;
       height: 3%;
-      @media (max-width: 500px) {
+      @media (max-width: 350px) {
         width: 6%;
         height: 6%;
       }
@@ -248,7 +253,7 @@ header {
 .main {
   display: flex;
   flex-direction: column;
-  @media (max-width: 500px) {
+  @media (max-width: 350px) {
     flex-direction: column;
   }
 
@@ -256,15 +261,15 @@ header {
     display: flex;
     flex-direction: row;
     margin: 25px 75px;
-    @media (max-width: 500px) {
+    @media (max-width: 350px) {
       flex-direction: column-reverse;
-      width: 85%;
+      width: 90%;
       margin: 30px auto;
     }
 
     .text-container {
       padding-right: 50px;
-      @media (max-width: 500px) {
+      @media (max-width: 350px) {
         margin-top: 25px;
         padding-right: 0px;
       }
@@ -281,15 +286,15 @@ header {
         border: 1px solid black;
         text-align: center;
         padding: 12px 25px;
-        @media (max-width: 500px) {
-          padding: 12px 164px;
+        @media (max-width: 350px) {
+          padding: 12px 115px;
         }
       }
     }
 
     .text-container-2 {
       padding-left: 50px;
-      @media (max-width: 500px) {
+      @media (max-width: 350px) {
         margin-top: 25px;
         padding-left: 0px;
       }
@@ -306,15 +311,15 @@ header {
         border: 1px solid black;
         text-align: center;
         padding: 12px 25px;
-        @media (max-width: 500px) {
-          padding: 12px 156px;
+        @media (max-width: 350px) {
+          padding: 12px 108px;
         }
       }
     }
   }
 
   .inverse-feature {
-    @media (max-width: 500px) {
+    @media (max-width: 350px) {
       flex-direction: column;
     }
   }
@@ -322,8 +327,16 @@ header {
 
 .recent {
   margin: 25px 75px;
-  @media (max-width: 500px) {
-    margin: 25px 35px;
+  @media (max-width: 350px) {
+    margin: 25px 15px;
+  }
+}
+
+.home-imgs-top {
+  @media (max-width: 350px) {
+    // width: 90%;
+    // height: 100%;
+    width: 316px;
   }
 }
 
@@ -331,7 +344,7 @@ header {
 
 .btm-section {
   margin: 25px 75px;
-  @media (max-width: 500px) {
+  @media (max-width: 350px) {
     margin: 0;
   }
 
@@ -350,8 +363,8 @@ header {
         height: 95px;
         width: 310px;
         background-color: lightgrey;
-        @media (max-width: 500px) {
-          left: 88px;
+        @media (max-width: 350px) {
+          left: 20px;
           bottom: -75px;
         }
       }
@@ -366,8 +379,8 @@ header {
         height: 95px;
         width: 310px;
         background-color: lightgrey;
-        @media (max-width: 500px) {
-          left: 88px;
+        @media (max-width: 350px) {
+          left: 20px;
           bottom: -75px;
         }
       }
@@ -375,7 +388,7 @@ header {
 
     .feature-2-text-wrapper {
       padding: 80px 235px;
-      @media (max-width: 500px) {
+      @media (max-width: 350px) {
         padding: 20px 10px;
         margin-top: 60px;
       }
@@ -384,6 +397,13 @@ header {
         margin: 20px auto;
       }
     }
+  }
+}
+
+.img-btm {
+  @media (max-width: 350px) {
+    height: 100%;
+    width: 100%;
   }
 }
 
@@ -397,14 +417,14 @@ footer {
     color: #ffffff;
     justify-content: space-around;
     padding: 30px;
-    @media (max-width: 500px) {
+    @media (max-width: 350px) {
       padding: 20px 10px;
       flex-direction: column;
     }
 
     .email {
       width: 30%;
-      @media (max-width: 500px) {
+      @media (max-width: 350px) {
         width: 100%;
       }
 
@@ -412,6 +432,7 @@ footer {
         height: 30px;
         width: 273px;
         margin-top: 25px;
+        margin-bottom: 10px;
       }
     }
 
@@ -420,12 +441,12 @@ footer {
       justify-content: space-around;
       color: #ffffff;
       width: 60%;
-      @media (max-width: 500px) {
+      @media (max-width: 350px) {
         flex-direction: column;
       }
 
       .states-1 {
-        @media (max-width: 500px) {
+        @media (max-width: 350px) {
           margin-top: 30px;
         }
       }
@@ -445,10 +466,12 @@ footer {
 .copyright {
   text-align: center;
   color: #ffffff;
-  @media (max-width: 500px) {
-    margin-right: 292px;
+  @media (max-width: 350px) {
+    margin-right: 140px;
     margin-bottom: 20px;
   }
 }
 
-//                services page
+// ***********************
+//          services page
+// ***********************

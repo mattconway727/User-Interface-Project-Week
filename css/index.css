@@ -159,12 +159,12 @@ h1 {
   padding-left: 75px;
   background-size: cover;
 }
-@media (max-width: 500px) {
+@media (max-width: 350px) {
   h1 {
-    font-size: 4rem;
-    line-height: 52px;
-    margin-top: -184px;
-    padding-left: 34px;
+    font-size: 3.5rem;
+    line-height: 37px;
+    margin-top: -141px;
+    padding-left: 20px;
   }
 }
 h2 {
@@ -175,6 +175,11 @@ h3 {
   font-weight: bold;
   font-size: 2.8rem;
   margin-bottom: 30px;
+}
+@media (max-width: 350px) {
+  h3 {
+    font-size: 2.7rem;
+  }
 }
 h4 {
   font-size: 2rem;
@@ -197,7 +202,7 @@ header {
   background-color: #9fa9b3;
   color: #ffffff;
 }
-@media (max-width: 500px) {
+@media (max-width: 350px) {
   header {
     margin-bottom: 35px;
   }
@@ -213,7 +218,7 @@ header .top-section .nav-hamburger {
   width: 3%;
   height: 3%;
 }
-@media (max-width: 500px) {
+@media (max-width: 350px) {
   header .top-section .nav-hamburger {
     width: 6%;
     height: 6%;
@@ -233,7 +238,7 @@ header .jumbotron .jumbotron-desktop-img {
   display: flex;
   flex-direction: column;
 }
-@media (max-width: 500px) {
+@media (max-width: 350px) {
   .main {
     flex-direction: column;
   }
@@ -243,17 +248,17 @@ header .jumbotron .jumbotron-desktop-img {
   flex-direction: row;
   margin: 25px 75px;
 }
-@media (max-width: 500px) {
+@media (max-width: 350px) {
   .main .feature-1 {
     flex-direction: column-reverse;
-    width: 85%;
+    width: 90%;
     margin: 30px auto;
   }
 }
 .main .feature-1 .text-container {
   padding-right: 50px;
 }
-@media (max-width: 500px) {
+@media (max-width: 350px) {
   .main .feature-1 .text-container {
     margin-top: 25px;
     padding-right: 0px;
@@ -271,15 +276,15 @@ header .jumbotron .jumbotron-desktop-img {
   text-align: center;
   padding: 12px 25px;
 }
-@media (max-width: 500px) {
+@media (max-width: 350px) {
   .main .feature-1 .text-container .button {
-    padding: 12px 164px;
+    padding: 12px 115px;
   }
 }
 .main .feature-1 .text-container-2 {
   padding-left: 50px;
 }
-@media (max-width: 500px) {
+@media (max-width: 350px) {
   .main .feature-1 .text-container-2 {
     margin-top: 25px;
     padding-left: 0px;
@@ -297,12 +302,12 @@ header .jumbotron .jumbotron-desktop-img {
   text-align: center;
   padding: 12px 25px;
 }
-@media (max-width: 500px) {
+@media (max-width: 350px) {
   .main .feature-1 .text-container-2 .button {
-    padding: 12px 156px;
+    padding: 12px 108px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 350px) {
   .main .inverse-feature {
     flex-direction: column;
   }
@@ -310,15 +315,20 @@ header .jumbotron .jumbotron-desktop-img {
 .recent {
   margin: 25px 75px;
 }
-@media (max-width: 500px) {
+@media (max-width: 350px) {
   .recent {
-    margin: 25px 35px;
+    margin: 25px 15px;
+  }
+}
+@media (max-width: 350px) {
+  .home-imgs-top {
+    width: 316px;
   }
 }
 .btm-section {
   margin: 25px 75px;
 }
-@media (max-width: 500px) {
+@media (max-width: 350px) {
   .btm-section {
     margin: 0;
   }
@@ -338,9 +348,9 @@ header .jumbotron .jumbotron-desktop-img {
   width: 310px;
   background-color: lightgrey;
 }
-@media (max-width: 500px) {
+@media (max-width: 350px) {
   .btm-section .feature-2 .pic-caption h4 {
-    left: 88px;
+    left: 20px;
     bottom: -75px;
   }
 }
@@ -355,16 +365,16 @@ header .jumbotron .jumbotron-desktop-img {
   width: 310px;
   background-color: lightgrey;
 }
-@media (max-width: 500px) {
+@media (max-width: 350px) {
   .btm-section .feature-2 .pic-caption .outskirts {
-    left: 88px;
+    left: 20px;
     bottom: -75px;
   }
 }
 .btm-section .feature-2 .feature-2-text-wrapper {
   padding: 80px 235px;
 }
-@media (max-width: 500px) {
+@media (max-width: 350px) {
   .btm-section .feature-2 .feature-2-text-wrapper {
     padding: 20px 10px;
     margin-top: 60px;
@@ -372,6 +382,12 @@ header .jumbotron .jumbotron-desktop-img {
 }
 .btm-section .feature-2 .feature-2-text-wrapper .feature-2-text {
   margin: 20px auto;
+}
+@media (max-width: 350px) {
+  .img-btm {
+    height: 100%;
+    width: 100%;
+  }
 }
 footer {
   background-color: #828282;
@@ -382,7 +398,7 @@ footer .contact {
   justify-content: space-around;
   padding: 30px;
 }
-@media (max-width: 500px) {
+@media (max-width: 350px) {
   footer .contact {
     padding: 20px 10px;
     flex-direction: column;
@@ -391,7 +407,7 @@ footer .contact {
 footer .contact .email {
   width: 30%;
 }
-@media (max-width: 500px) {
+@media (max-width: 350px) {
   footer .contact .email {
     width: 100%;
   }
@@ -400,6 +416,7 @@ footer .contact .email .input {
   height: 30px;
   width: 273px;
   margin-top: 25px;
+  margin-bottom: 10px;
 }
 footer .contact .states {
   display: flex;
@@ -407,12 +424,12 @@ footer .contact .states {
   color: #ffffff;
   width: 60%;
 }
-@media (max-width: 500px) {
+@media (max-width: 350px) {
   footer .contact .states {
     flex-direction: column;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 350px) {
   footer .contact .states .states-1 {
     margin-top: 30px;
   }
@@ -429,9 +446,9 @@ footer .contact .states .states-text {
   text-align: center;
   color: #ffffff;
 }
-@media (max-width: 500px) {
+@media (max-width: 350px) {
   .copyright {
-    margin-right: 292px;
+    margin-right: 140px;
     margin-bottom: 20px;
   }
 }
