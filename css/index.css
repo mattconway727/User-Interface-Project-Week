@@ -452,3 +452,11 @@ footer .contact .states .states-text {
     margin-bottom: 20px;
   }
 }
+.services-jumbotron-img {
+  height: 215px;
+  width: 100%;
+}
+.services {
+  margin-top: -85px;
+  padding-left: 75px;
+}
