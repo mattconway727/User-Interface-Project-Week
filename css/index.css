@@ -479,6 +479,12 @@ footer .contact .states .states-text {
   border: 1px solid black;
   font-size: 2.4rem;
 }
+.content {
+  display: none;
+}
+.change {
+  display: block;
+}
 .content-1 {
   display: flex;
   justify-content: space-between;
