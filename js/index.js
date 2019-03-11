@@ -55,18 +55,11 @@ const openNav = document.querySelector(".open-nav");
 
 const myClickFunction = () => {
   hamburgerBtn.classList.toggle("hidden");
-};
-
-const myClickFunction1 = () => {
   xBtn.classList.toggle("hidden");
-};
-
-const myClickFunction2 = () => {
   openNav.classList.toggle("hidden");
 };
 
-// step 3. for all 3 - addEventListener('click', myClickFuntion)
+// step 3. for both - addEventListener('click', myClickFuntion)
 
 hamburgerBtn.addEventListener("click", myClickFunction);
-xBtn.addEventListener("click", myClickFunction1);
-openNav.addEventListener("click", myClickFunction2);
+xBtn.addEventListener("click", myClickFunction);
