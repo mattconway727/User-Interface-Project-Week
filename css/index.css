@@ -506,6 +506,10 @@ footer .contact .states .states-text {
   font-size: 2.4rem;
   cursor: pointer;
 }
+.tab-navigator .tab-links .link:hover {
+  background: #222222;
+  color: #fff;
+}
 .content {
   display: none;
 }
@@ -513,7 +517,7 @@ footer .contact .states .states-text {
   display: block;
 }
 .clicked {
-  background: black;
+  background: #5e9fb9;
   color: white;
 }
 .content-1 {
