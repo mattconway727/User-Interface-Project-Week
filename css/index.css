@@ -224,6 +224,9 @@ header .top-section .nav-hamburger {
     height: 6%;
   }
 }
+header .top-section .hidden {
+  display: none;
+}
 header nav {
   display: none;
 }
@@ -478,12 +481,17 @@ footer .contact .states .states-text {
   padding: 10px 25px;
   border: 1px solid black;
   font-size: 2.4rem;
+  cursor: pointer;
 }
 .content {
   display: none;
 }
 .change {
   display: block;
+}
+.clicked {
+  background: black;
+  color: white;
 }
 .content-1 {
   display: flex;
