@@ -215,7 +215,7 @@ header {
 }
 header .top-section {
   display: flex;
-  width: 77.7%;
+  width: 1024px;
   background-color: #9fa9b3;
   color: #ffffff;
   position: fixed;
@@ -224,6 +224,11 @@ header .top-section {
   align-items: center;
   padding: 1% 7%;
   z-index: 2;
+}
+@media (max-width: 350px) {
+  header .top-section {
+    width: 350px;
+  }
 }
 header .top-section .nav-hamburger {
   width: 3%;
@@ -256,6 +261,11 @@ header .jumbotron .jumbotron-desktop-img {
   position: fixed;
   z-index: 1;
   opacity: 0.95;
+}
+@media (max-width: 350px) {
+  .open-nav {
+    width: 100%;
+  }
 }
 .hidden {
   display: none;
